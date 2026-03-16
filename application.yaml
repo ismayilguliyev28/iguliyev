@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/ismayilguliyev28/iguliyev.gitget s
+    repoURL: https://github.com/ismayilguliyev28/iguliyev.gitget
     targetRevision: HEAD
     path: dev
   destination: 
