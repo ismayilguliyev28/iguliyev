@@ -8,11 +8,11 @@ spec:
 
   source:
     repoURL: https://github.com/ismayilguliyev28/iguliyev.git
-    targetRevision: v2
+    targetRevision: v3
     path: dev
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: dev
 
   syncPolicy:
     syncOptions:
