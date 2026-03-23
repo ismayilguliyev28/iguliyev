@@ -3,7 +3,7 @@ kind: EndpointSlice
 metadata:
   name: example-abc
   labels:
-    kubernetes.io/service-name: example
+    kubernetes.io/service-name: myapp-serv
 addressType: IPv4
 ports:
   - name: http
