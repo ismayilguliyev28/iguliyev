@@ -5,8 +5,8 @@ metadata:
 spec:
   selector:
     app: myapp
-  ports:
-  - port: 8888
-    targetPort: 8888
-    nodePort: 30007
   type: NodePort
+  ports:
+    - port: 8888
+      targetPort: 8888
+      nodePort: 30088
