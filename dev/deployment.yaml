@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Erik-spielground
+  name: wil-playground
 spec:
   selector:
     matchLabels:
